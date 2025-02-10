@@ -27,7 +27,7 @@ const nextConfig = {
       // Basic redirect
       {
         source: "/",
-        destination: "/magnitude",
+        destination: "/aeon",
         permanent: true,
       },
     ];

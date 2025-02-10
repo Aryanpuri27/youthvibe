@@ -129,13 +129,13 @@ export default async function Index() {
 
           <LayoutPerformances />
         </div>
-        <div className="w-full h-full py-20">
+        {/* <div className="w-full h-full py-20">
           <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-gray-100 font-sans">
             Our Socials
           </h2>
 
           <AnimatedPin />
-        </div>
+        </div> */}
         {/* <Timeline /> */}
       </div>
     </Suspense>

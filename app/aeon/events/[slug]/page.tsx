@@ -60,7 +60,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
             </div>
             <div>
               <a
-                href={`/magnitude/events/register/${events[0].id}?name=${events[0].name}`}
+                href={`/aeon/events/register/${events[0].id}?name=${events[0].name}`}
               >
                 <Button className="bg-primary rounded-2xl text-primary-foreground  ">
                   Register Now
