@@ -30,7 +30,7 @@ export default function Header() {
           <ul className="flex gap-7">
             <li>
               <a
-                href="/magnitude"
+                href="/aeon"
                 rel="noreferrer"
                 className="flex justify-center font-sm align-middle rounded-md overflow-hidden"
               >
@@ -38,28 +38,28 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="/magnitude/about">
+              <a href="/aeon/about">
                 <ExternalLinkButton text="About" />
               </a>
             </li>
             <li>
-              <a href="/magnitude/events" rel="noreferrer">
+              <a href="/aeon/events" rel="noreferrer">
                 {/* <h2>events</h2> */}
                 <ExternalLinkButton text="Events" />
               </a>
             </li>
             <li>
-              <a href="/magnitude/schedule">
+              <a href="/aeon/schedule">
                 <ExternalLinkButton text="Schedule" />
               </a>
             </li>
             <li>
-              <a href="/magnitude/sponsors">
+              <a href="/aeon/sponsors">
                 <ExternalLinkButton text="Sponsors" />
               </a>
             </li>
             <li>
-              <a href="/magnitude/contact">
+              <a href="/aeon/contact">
                 <ExternalLinkButton text="Contact" />
               </a>
             </li>
@@ -73,37 +73,37 @@ export default function Header() {
               </MenubarTrigger>
               <MenubarContent>
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude" rel="noreferrer">
+                  <a href="/aeons" rel="noreferrer">
                     <h2>Home</h2>
                   </a>
                 </MenubarItem>
                 <MenubarSeparator />
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude/about">
+                  <a href="/aeon/about">
                     <h2>About</h2>
                   </a>
                 </MenubarItem>
                 <MenubarSeparator />
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude/events" rel="noreferrer">
+                  <a href="/aeon/events" rel="noreferrer">
                     <h2>Events</h2>
                   </a>
                 </MenubarItem>
                 <MenubarSeparator />
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude/schedule">
+                  <a href="/aeon/schedule">
                     <h2>Schedule</h2>
                   </a>
                 </MenubarItem>
                 <MenubarSeparator />
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude/sponsors">
+                  <a href="/aeon/sponsors">
                     <h2>Sponsors</h2>
                   </a>
                 </MenubarItem>
                 <MenubarSeparator />
                 <MenubarItem className="px-4 py-2">
-                  <a href="/magnitude/contact">
+                  <a href="/aeon/contact">
                     <h2>contact</h2>
                   </a>
                 </MenubarItem>
@@ -114,7 +114,7 @@ export default function Header() {
       </div>
 
       {/* <div className="flex gap-4 rounded-lg overflow-hidden"> */}
-      <a href="/magnitude/events" className="hidden md:block">
+      <a href="/aeon/events" className="hidden md:block">
         <GetStartedButton text="Register Now" />
         {/* <Image src={"/image.png"} alt="dyc-logo" width={180} height={40} /> */}
       </a>
