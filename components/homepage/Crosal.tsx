@@ -21,7 +21,7 @@ export function AppleCardsCarouselDemo({ events }: { events: any }) {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-primary/60 font-sans">
+      <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-gray-100 font-sans">
         Our Flagship Events
       </h2>
       <Carousel items={cards} />
@@ -37,7 +37,7 @@ const DummyContent = ({ event }: { event: any }) => {
         className="bg-background p-8 md:p-14 rounded-3xl mb-4"
       >
         <Image
-          src={"/magnitudenew.jpg"}
+          src={event.banner_url}
           alt="banner"
           height="500"
           width="500"
@@ -49,13 +49,13 @@ const DummyContent = ({ event }: { event: any }) => {
         <div className="flex justify-between m-2 p-10">
           <a
             href={`/magnitude/events/${event.id}`}
-            className="text-primary/60 text-base md:text-2xl font-sans"
+            className="text-gray-200 text-base md:text-2xl font-sans"
           >
             Read More
           </a>
           <a
             href={`/magnitude/events/register/${event.id}`}
-            className="text-primary/60 text-base md:text-2xl font-sans"
+            className="text-gray-200 text-base md:text-2xl font-sans"
           >
             Register
           </a>

@@ -12,6 +12,7 @@ import { Suspense } from "react";
 import Mainloder from "@/components/homepage/loader";
 import VideoPlayer from "@/components/homepage/index";
 import Marquee from "react-fast-marquee";
+import Spline from "@splinetool/react-spline";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -46,6 +47,9 @@ export default function RootLayout({
 
           {/* <Suspense fallback={<Mainloder />}> */}
           {/* <BackgroundBeamsWithCollision className=""> */}
+          <div className="fixed z-[-100] ">
+            <Spline scene="https://prod.spline.design/9YertM7EEuYw0Hs1/scene.splinecode" />
+          </div>
           <div className="  fixed top-[-150px] z-[-2] h-[300px] left-[-170px] w-[300px] rounded-[500px] bg-primary blur-[200px] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
           <div className=" bgBlobs blur-3xl fixed top-[-150px] z-[-2] h-[300px] left-[-170px] w-[300px]  "></div>
           <div className=" fixed  bottom-[-150px] z-[-2] h-[300px] right-[-170px] md:w-[300px] rounded-[500px] bg-primary blur-[200px] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>

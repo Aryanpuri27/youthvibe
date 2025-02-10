@@ -1,6 +1,7 @@
 // components/VideoPlayer.tsx
 "use client";
 
+import Spline from "@splinetool/react-spline";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -42,22 +43,23 @@ export default function VideoPlayer({
     };
   }, []);
 
-  const handleVideoEnd = () => {
+  setTimeout(() => {
     setIsVideoPlayed(true);
-  };
+  }, 4000);
 
   return (
     <div className="relative">
       {!isVideoPlayed && shouldPlayVideo ? (
         <div className="absolute top-0 left-0 w-screen h-screen z-50">
-          <video
+          {/* <video
             src={videoSrc}
             autoPlay
             playsInline
             muted
             onEnded={handleVideoEnd}
             className="w-full h-full object-cover"
-          />
+          /> */}
+          <Spline scene="https://prod.spline.design/8TGjdX6NhTEH996U/scene.splinecode" />
         </div>
       ) : (
         children

@@ -16,13 +16,13 @@ export default function GetStartedButton({
     <div className="">
       <button
         className={cn(
-          "group flex  px-[20px] py-[10px] items-center justify-center gap-2 rounded-xl  bg-primary text-primary-foreground  font-bold transition-colors duration-100 ease-in-out hover:bg-transparent hover:text-primary  hover:shadow-[2px_2px_23px_1px_#e53e3e]",
+          "group flex  px-[20px] py-[10px] items-center justify-center gap-2 rounded-xl  bg-transparent text-primary-foreground  font-bold transition-colors duration-100 ease-in-out hover:bg-transparent hover:text-primary  hover:shadow-[2px_2px_23px_1px_#979DAC]",
           className
         )}
       >
         <span
           className={cn(
-            "text-black px-2 text-xl  transition-colors duration-100 ease-in-out group-hover:text-primary "
+            "text-white px-2 text-xl  transition-colors duration-100 ease-in-out group-hover:text-gray-200 "
           )}
         >
           {text}
@@ -36,7 +36,7 @@ export default function GetStartedButton({
             <MoveRight
               size={16}
               className={cn(
-                "size-6 transform p-1 text-orange-600 opacity-0 group-hover:opacity-100"
+                "size-6 transform p-1 text-gray-200 opacity-0 group-hover:opacity-100"
               )}
             />
             <MoveRight

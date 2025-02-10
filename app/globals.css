@@ -180,3 +180,13 @@ body {
     opacity: 1;
   }
 }
+
+@font-face {
+  font-family: "dune";
+  src: url("/public/Dune_Rise.ttf");
+}
+
+/* In your css file where you want to use the font */
+.dunefont {
+  font-family: "font-name";
+}

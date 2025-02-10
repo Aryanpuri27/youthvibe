@@ -13,9 +13,7 @@ export function LayoutPerformances() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">
-        Sunidhi Chauhan
-      </p>
+      <p className="font-bold md:text-4xl text-xl text-white">Diljit Dosanjh</p>
       {/* <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A serene and tranquil retreat, this house in the woods offers a peaceful
@@ -27,7 +25,7 @@ const SkeletonOne = () => {
 const SkeletonOne1 = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">Rashmeet Kaur</p>
+      <p className="font-bold md:text-4xl text-xl text-white">Coldplay</p>
       {/* <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A serene and tranquil retreat, this house in the woods offers a peaceful
@@ -40,9 +38,7 @@ const SkeletonOne1 = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">
-        Anubhav Singh Bassi
-      </p>
+      <p className="font-bold md:text-4xl text-xl text-white">Anuv Jain</p>
       {/* <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Perched high above the world, this house offers breathtaking views and a
@@ -55,9 +51,7 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">
-        Kartik Aryan and Kriti sanon
-      </p>
+      <p className="font-bold md:text-4xl text-xl text-white">Karan Aujla</p>
       {/* <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
@@ -66,40 +60,40 @@ const SkeletonThree = () => {
     </div>
   );
 };
-const SkeletonFour = () => {
-  return (
-    <div>
-      <p className="font-bold md:text-4xl text-xl text-white">Asees Kaur</p>
-      <p className="font-normal text-base text-white"></p>
-    </div>
-  );
-};
+// const SkeletonFour = () => {
+//   return (
+//     <div>
+//       <p className="font-bold md:text-4xl text-xl text-white">Asees Kaur</p>
+//       <p className="font-normal text-base text-white"></p>
+//     </div>
+//   );
+// };
 
 const cards = [
   {
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2",
-    thumbnail: "/sunidhi.jpg",
+    thumbnail: "/past/dil.jpg",
   },
 
   {
     id: 3,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail: "/bassi.jpg",
+    thumbnail: "/past/anuv.jpg",
   },
   {
     id: 4,
-    content: <SkeletonFour />,
+    content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail: "/aseskaur.jpg",
+    thumbnail: "/past/q.jpg",
   },
 
   {
     id: 2,
     content: <SkeletonOne1 />,
     className: "md:col-span-2",
-    thumbnail: "/rashmit.jpg",
+    thumbnail: "/past/coldplay.jpg",
   },
 ];

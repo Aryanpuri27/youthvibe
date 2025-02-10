@@ -123,14 +123,14 @@ export default async function Index() {
           <CanvasRevealEffectDemo />
         </div> */}
         <div className="w-full h-full py-20">
-          <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-primary/60 font-sans">
-            Our Former Resplendent Galas
+          <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-gray-100 font-sans">
+            Past guests
           </h2>
 
           <LayoutPerformances />
         </div>
         <div className="w-full h-full py-20">
-          <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-primary/60 font-sans">
+          <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-gray-100 font-sans">
             Our Socials
           </h2>
 

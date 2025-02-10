@@ -24,14 +24,14 @@ export default async function Page({ params }: { params: { slug: string } }) {
     return (
       <div className="py-20">
         <div className="text-center mb-8 ">
-          <h1 className="text-5xl text-center font-bold w-auto font-sans">
+          <h1 className="text-5xl text-center text-gray-100 font-bold w-auto font-sans">
             {events && events[0].name && events[0].name}
           </h1>
         </div>
         <div className="md:w-[800px] md:h-[380px]  flex justify-center items-center">
           <div className="md:w-[600px] md:h-[380px] h-[200px] m-4 overflow-hidden items-center">
             <Image
-              src={"/magnitudenew.jpg"}
+              src={events[0].banner_url}
               alt={events[0].name}
               // layout="fill"
               width={600}
@@ -69,7 +69,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
             </div>
           </div>
         </div>
-        <div className="md:w-[800px] p-4 bg-transparent rounded shadow-md">
+        <div className="md:w-[800px] p-4 bg-transparent text-gray-300 rounded shadow-md">
           {events[0].long_description}
         </div>
 

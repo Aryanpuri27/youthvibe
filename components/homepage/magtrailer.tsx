@@ -1,4 +1,5 @@
 // components/VideoPlayer.js
+import Spline from "@splinetool/react-spline";
 import React, { useEffect, useRef, useState } from "react";
 
 interface VideoPlayerProps {
@@ -30,9 +31,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoSrc }) => {
       }}
     >
       {isLoading && (
-        <video ref={videoRef} autoPlay muted loop>
-          <source src={videoSrc} type="video/mp4" />
-        </video>
+        <Spline scene="https://prod.spline.design/8TGjdX6NhTEH996U/scene.splinecode" />
       )}
     </div>
   );

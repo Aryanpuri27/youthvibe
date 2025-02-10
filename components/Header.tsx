@@ -21,7 +21,8 @@ export default function Header() {
     <div className=" mt-3 flex justify-around items-center z-22 top-3 bg-transparent    px-8 gap-16 pt-2  p-2  left-0 w-full z-50">
       <a href="/" rel="noreferrer">
         <h1 className="text-2xl md:text-4xl font-bold">
-          MAGNI<span className="text-primary">TUDE</span>
+          {/* MAGNI<span className="text-primary">TUDE</span> */}
+          <Image src={"/new/lo.png"} width={200} height={40} alt="logo" />
         </h1>
       </a>
       <div className="flex  text-md gap-4">
