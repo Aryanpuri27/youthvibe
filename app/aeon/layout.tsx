@@ -20,8 +20,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "MAGNITUDE",
-  description: "LPU'S CULTURAL FEST",
+  title: "AEON",
+  description: "AEON",
 };
 
 const UrbanistF = Urbanist({
